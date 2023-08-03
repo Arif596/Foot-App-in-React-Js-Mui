@@ -1,0 +1,28 @@
+.Navigation-style{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.Navigation-style li{
+    margin: 0 10px;
+    padding: 20px; 
+    font-size: 20px;  
+}
+.Navigation-style li a{
+    text-decoration: none;
+    color: azure;
+}
+.Navigation-style li a:hover{
+    background-color: rgb(19, 175, 175);
+}
+.Navigation-style li a:active{
+    background-color: brown;
+}
+.Navigation-Mobileopen li{
+    margin-top: 10px;
+    padding: 10px; 
+}
+.Navigation-Mobileopen li a{
+    font-size: 1.4rem;
+    text-decoration: none;
+}
